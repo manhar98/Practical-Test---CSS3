@@ -1,0 +1,355 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    padding-inline: 10px;
+    position: fixed;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.logo{
+    display: flex;
+    /* padding-top: 10px; */
+    gap: 8px;
+    /* padding-bottom: 50px; */
+}
+.heading{
+    color: white;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 30px;
+    /* padding-right: 10px; */
+}
+.search{
+    color: white;
+    padding-top: 10px;
+
+}
+.search i{
+    color: white;
+
+
+}
+button{
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: lightcoral;
+    
+}
+.home{
+    display: flex;
+    gap: 2px;
+ 
+    justify-content: center;
+}
+.middle{
+    display: flex;
+    gap: 15px;
+}
+.middle a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.middle .home{
+    color: lightcoral;
+}
+.middle i{
+    color: white;
+    font-size: 25px;
+}
+.button button:hover{
+    background-color: blue;
+}
+header .image{
+    width: 100%;
+    height: 700px;
+    /* background-repeat: no-repeat; */
+    background-image: url("./Blog_2_-_DIY_Home_Decor_Ideas.webp");
+    box-shadow: 10px 10px 400px 200px rgba(0,0,0,0.9) inset;
+-webkit-box-shadow: 10px 10px 400px 200px rgba(0,0,0,0.9) inset;
+-moz-box-shadow: 10px 10px 400px 200px rgba(0,0,0,0.9) inset;
+}
+.text{
+    padding-left: 50%;
+    padding-top: 100px;
+}
+.text h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+}
+.btn{
+    padding-left: 70%;
+    padding-top: 60px;
+    display: flex;
+    gap: 25px;
+}
+.btn button{
+    padding: 20px;
+    font-size: 25px;
+    
+}
+.btn button:hover{
+    background-color: white;
+    color: black;
+}
+.btn2{
+    background-color: white;
+    color: black;
+}
+.btn .btn2:hover{
+    background-color: blue;
+    color: white;
+}
+.herosec{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.herosec .left{
+    width: 50%;
+    height: 600px;
+    /* border: 2px solid red; */
+}
+.herosec .right{
+    width: 50%;
+    height: 600px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 128, 128, 0.142);
+}
+.herosec .left img{
+    width: 100%;
+    height: 600px;
+}
+.herosec .right .btn1{
+    padding-left: 43%;
+} 
+
+.herosec .right .btn1 button{
+    padding: 20px;
+    font-size: 25px;
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;   
+}
+.herosec .right h1{
+    font-weight: 900;
+    font-size: 50px;
+    padding-left: 250px;
+}
+.herosec .right .h4 h4{
+    text-indent: 100px;
+    color: rgba(128, 128, 128, 0.659);
+    text-align: justify;
+  
+}
+.exp{
+    display: flex;
+    flex-direction: row;
+}
+.exp .left1{
+   width: 200px;
+   height: 220px;
+   margin-left: 100px;
+   text-align: center;
+   align-items: center;
+   display: flex;
+   gap: 30px;
+   flex-direction: column;
+   justify-content: center;
+}
+.exp .left1 p{
+    color: palevioletred;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.exp .left1 h4{
+    
+    font-size: 20px;
+    font-weight: 200;
+}
+.exp .right1{
+    display: flex;
+    gap: 30px;
+}
+.exp .right1 .line{
+    width: 1px;
+    height: 200px;
+    border: 1px solid rgba(128, 128, 128, 0.306);
+}
+.R{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.btn2{
+   margin-top: 10px;
+}
+.btn2 button:hover{
+    color: white;
+    background-color: blue;
+}
+footer{
+    width: 100%;
+    height: 600px;
+       background-color: rgba(240, 128, 128, 0.142);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.btn3{
+   padding-left: 45%;
+   padding-top: 50px;
+}
+.btn3 button{
+    padding: 20px;
+    font-size: 20px;
+}
+.heading2 h1{
+    font-size: 50px;
+    font-weight: 900;
+    padding-left: 35%;
+}
+.mainbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.box{
+    width: 15%;
+    height: 380px;
+  background-color: rgb(254, 219, 173);
+    border-radius: 10px;
+}
+.box1 .img3{
+    padding-left: 100px;
+}
+.box1{
+    padding-top: 20px;
+}
+.box1 h1{
+    padding-left: 50px;
+}
+.btn4{
+    padding-top: 213px;
+    padding-left: 90px;
+}
+.box2{
+    padding-top: 20px;
+}
+.box2 .img3{
+    padding-left: 100px;
+    display: flex;
+    gap: 20px;
+}
+.box2 h1{
+    padding-left: 50px;
+}
+.box2 p{
+    padding-top: 10px;
+    color: gray;
+}
+.box2 .btn4{
+    padding-top: 99px;
+    padding-left: 90px;
+}
+.box3 .img3{
+    padding-left: 100px;
+}
+.box3 h1{
+    padding-left: 50px;
+}
+.box3 p{
+    padding-top: 10px;
+    color: gray;
+}
+.box3{
+    padding-top: 20px;
+}
+.box3 .btn4{
+    padding-top: 95px;
+    padding-left: 90px;
+}
+.box4 .img3{
+    padding-left: 100px;
+}
+.box4 h1{
+    padding-left: 50px;
+}
+.box4 p{
+    padding-top: 10px;
+    color: gray;
+}
+.box4{
+    padding-top: 20px;
+}
+.box4 .btn4{
+    padding-top: 95px;
+    padding-left: 90px;
+}
+.box button:hover{
+    background-color: blue;
+    color: white;
+}
+.mainfooter{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.footer i{
+    color: white;
+    font-size: 80px;
+}
+.mainfooter p{
+    color: rgba(250, 250, 250, 0.601);
+    font-size: 20px;
+    text-indent: 100px;
+    padding-top: 50px;
+    
+}
+.mainfooter .logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.mainfooter h1{
+    color: white;
+    padding-left: 42%;
+    font-size: 45px;
+    padding-top: 30px;
+}
